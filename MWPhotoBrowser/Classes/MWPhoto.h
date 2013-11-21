@@ -20,6 +20,8 @@
 @property (nonatomic, readonly) UIImage *image;
 @property (nonatomic, readonly) NSURL *photoURL;
 @property (nonatomic, readonly) NSString *filePath  __attribute__((deprecated("Use photoURL"))); // Depreciated
+@property (nonatomic, strong) NSString *link;
+@property (nonatomic, strong) NSDictionary *tracking;
 
 // Class
 + (MWPhoto *)photoWithImage:(UIImage *)image;

@@ -1257,6 +1257,9 @@
                     if (photo.caption) {
                         [items addObject:photo.caption];
                     }
+                    if (photo.link) {
+                        [items addObject:photo.link];
+                    }
                     self.activityViewController = [[UIActivityViewController alloc] initWithActivityItems:items applicationActivities:nil];
                     
                     // Show loading spinner after a couple of seconds

@@ -57,4 +57,9 @@
 // Return nil to display no caption
 - (NSString *)caption; 
 
+// Return a link, preferably used as direct link to gallery
+- (NSString *)link;
+
+// Return a tracking dictionary, can be used for several vendors
+- (NSString *)tracking;
 @end
